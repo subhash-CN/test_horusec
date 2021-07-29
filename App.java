@@ -8,6 +8,22 @@ public class App
         String s = "" + 123;                // inefficient
 String t = Integer.toString(456);   // preferred approach
         
+      
+        Boolean x =true;
+        Boolean y =true;
+        if (x) {            // original implementation
+            if (y) {
+                System.out.println( "Hello World!" );
+            }
+        }
+
+
+        if (x) 
+            if (y) {
+                System.out.println( "Hello World!" );
+            }
+
+        
         Random rand = new Random();
         System.out.println(rand.nextInt(50));
         System.out.println( "Hello World!" );
