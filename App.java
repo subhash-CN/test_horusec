@@ -11,6 +11,12 @@ String t = Integer.toString(456);   // preferred approach
       
         Boolean x =true;
         Boolean y =true;
+        if (((x != !y)) || !(x)) {
+            System.out.println( "Hello World!" );
+        } else {
+            System.out.println( "Hello World!" );
+        }
+        
         if (x) {            // original implementation
             if (y) {
                 System.out.println( "Hello World!" );
