@@ -6,7 +6,7 @@ public class App
     public static void main( String[] args )
     {
         String s = "" + 123;                // inefficient
-String t = Integer.toString(456);   // preferred approach
+        String t = Integer.toString(456);   // preferred approach
         
       
         Boolean x =true;
@@ -44,4 +44,9 @@ String t = Integer.toString(456);   // preferred approach
         System.out.println(rand.nextInt(50));
         System.out.println( "Hello World!" );
     }
+    
+    boolean bar(int x, int y) {
+        return (x != y) ? diff : same;
+    }
+    
 }
