@@ -17,7 +17,9 @@ public class App
             System.out.println( "Hello World!" );
         }
         
-        if (((x != !y)) && !(x)) {
+        if (!x) {
+            System.out.println( "Hello World!" );
+        } else if(!y) {
             System.out.println( "Hello World!" );
         } else {
             System.out.println( "Hello World!" );
