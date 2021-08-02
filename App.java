@@ -51,7 +51,7 @@ public class App
     }
     
     boolean bar(int x, int y) {
-        return (x != y) ? diff : same;
+        return (x != y) ? true : true;
     }
     
 }
