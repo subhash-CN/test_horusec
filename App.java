@@ -1,4 +1,4 @@
-package com.mycompany.app;
+
 import java.util.Random;
 
 public class App 
@@ -43,11 +43,6 @@ public class App
             if (y) {
                 System.out.println( "Hello World!" );
          }
-
-        
-        Random rand = new Random();
-        System.out.println(rand.nextInt(50));
-        System.out.println( "Hello World!" );
     }
     
     boolean bar(int x, int y) {
