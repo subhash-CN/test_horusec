@@ -11,6 +11,9 @@ public class App
       
         Boolean x =true;
         Boolean y =true;
+        
+        if (x == true) { System.out.println( "Hello World!" ); }
+        
         if (((x != !y)) || !(x)) {
             System.out.println( "Hello World!" );
         } else {
